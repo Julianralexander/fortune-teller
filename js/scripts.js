@@ -71,7 +71,17 @@ function fortune(array, array2, array3) {
 
 $(document).ready(function() {
   $("#fortune-teller").submit(function(event){
+    results.peaceful = 0;
+    results.cliff = 0;
+    results.murder= 0;
+    results.hamsters = 0;
+    var pets = [];
+    var activities = [];
+    var beverages = [];
+
     event.preventDefault();
+    $("#results").empty();
+
     $("input:checkbox[name=pet]:checked").each(function(){
       pets.push($(this).val());
     });
