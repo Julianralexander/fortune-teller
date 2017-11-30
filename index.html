@@ -8,6 +8,38 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <form id="fortune-teller">
+        <div class="form-group">
+          <p>What pets do you have?</p>
+          <input type="checkbox" name="pet" value="dog">Dog<br>
+          <input type="checkbox" name="pet" value="cat">Cat<br>
+          <input type="checkbox" name="pet" value="bird">Bird<br>
+          <input type="checkbox" name="pet" value="hamster">Hamster<br>
+          <input type="checkbox" name="pet" value="hamsters">More than one hamster<br>
+          <input type="checkbox" name="pet" value="none">None<br>
+        </div>
+        <div class="form-group">
+          <p>What activities do you enjoy?</p>
+          <input type="checkbox" name="activity" value="cliff">Walking close to cliffs<br>
+          <input type="checkbox" name="activity" value="rubix">Playing with Rubix Cubes<br>
+          <input type="checkbox" name="activity" value="eating">Eating<br>
+          <input type="checkbox" name="activity" value="pranks">Playing pranks on friends<br>
+          <input type="checkbox" name="activity" value="museums">Going to museums.<br>
+        </div>
+        <div class="form-group">
+          <p>What beverages do you consume every day?</p>
+          <input type="checkbox" name="beverage" value="water">Water<br>
+          <input type="checkbox" name="beverage" value="beer">Beer<br>
+          <input type="checkbox" name="beverage" value="wine">Wine<br>
+          <input type="checkbox" name="beverage" value="lean">Lean<br>
+          <input type="checkbox" name="beverage" value="boba">Boba<br>
+        </div>
+        <button type="submit" class="btn btn-default">Calculate your fate</button>
+      </form>
+      <span id="results">
 
+      </span>
+    </div>
   </body>
 </html>
