@@ -1,0 +1,17 @@
+body {
+   background: linear-gradient(to right, #200122, #6f0000);
+   color: white;
+}
+
+.jumbotron {
+  color: #6f0000;
+  font-family: 'Creepster', cursive;
+}
+h2 {
+  font-size: 65px;
+}
+
+#results {
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+}
